@@ -17,7 +17,7 @@
 		EE22163C2900C97F005502C4 /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22163B2900C97F005502C4 /* DoubleComponentPickerViewController.swift */; };
 		EE22163E2900C995005502C4 /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22163D2900C995005502C4 /* DependentComponentPickerViewController.swift */; };
 		EE2216402900C9AC005502C4 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE22163F2900C9AC005502C4 /* CustomPickerViewController.swift */; };
-		EE2216422900DC35005502C4 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE2216412900DC35005502C4 /* statedictionary.plist */; };
+		EEC188BE2901EB6B0018BADC /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEC188BD2901EB6B0018BADC /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		EE22163B2900C97F005502C4 /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
 		EE22163D2900C995005502C4 /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
 		EE22163F2900C9AC005502C4 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
-		EE2216412900DC35005502C4 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = ../../../../../../statedictionary.plist; sourceTree = "<group>"; };
+		EEC188BD2901EB6B0018BADC /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				EE22162E2900C908005502C4 /* Assets.xcassets */,
 				EE2216302900C908005502C4 /* LaunchScreen.storyboard */,
 				EE2216332900C908005502C4 /* Info.plist */,
-				EE2216412900DC35005502C4 /* statedictionary.plist */,
+				EEC188BD2901EB6B0018BADC /* statedictionary.plist */,
 			);
 			path = Pickers;
 			sourceTree = "<group>";
@@ -142,7 +142,7 @@
 			files = (
 				EE2216322900C908005502C4 /* LaunchScreen.storyboard in Resources */,
 				EE22162F2900C908005502C4 /* Assets.xcassets in Resources */,
-				EE2216422900DC35005502C4 /* statedictionary.plist in Resources */,
+				EEC188BE2901EB6B0018BADC /* statedictionary.plist in Resources */,
 				EE22162D2900C907005502C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

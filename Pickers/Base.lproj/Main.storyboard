@@ -156,20 +156,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="huj-Sh-iIQ">
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="huj-Sh-iIQ">
                                 <rect key="frame" x="16" y="171" width="358" height="162"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Roe-Ao-vcR" id="gBi-ym-NxU"/>
                                     <outlet property="delegate" destination="Roe-Ao-vcR" id="TX1-eK-BVj"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yq-Gd-jFE">
-                                <rect key="frame" x="158" y="393" width="75" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yq-Gd-jFE">
+                                <rect key="frame" x="160" y="393" width="72" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Kjk-jI-hAy"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Select"/>
                                 <connections>
                                     <action selector="onButtonPressed:" destination="Roe-Ao-vcR" eventType="touchUpInside" id="q7X-SX-cmb"/>
                                 </connections>
